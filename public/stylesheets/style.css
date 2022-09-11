@@ -1,0 +1,276 @@
+*{
+	box-sizing: border-box;/*every element on the page makes sure all elements have these attributes*/
+	/*includes margins and padding for every element*/
+	margin: 0px;
+	padding: 0px;
+}
+#username{
+	margin: 10px auto;
+}
+#current-password{
+	margin: 10px auto;
+}
+header{
+	padding-bottom: 10px;
+	margin: 0px;
+	position: static;
+	background-color: rgb(251, 90, 90);
+	height: 100px;
+}
+h3{
+	text-align: center;
+	font-size: larger;
+}
+
+h1{
+	color: rgb(255, 215, 215);
+	font-size: 80px;
+	position: static;
+	width: max-content;
+	margin: 0px auto;
+}
+
+h2{
+	color: rgb(255, 215, 215);
+	font-size: 40px;
+	position: static;
+	width: max-content;
+	margin: 0px auto;
+}
+#alerts{
+	width: max-content;
+	margin: -30px auto;
+	margin-top: 20px;
+	padding: 5px;
+}
+h5{
+	margin: 5px;
+}
+#add-btn{
+	width: max-content;
+	text-align: center;
+	margin: 20px auto;
+	display: block;
+}
+h1 > span {
+	color: rgb(192, 3, 3);
+}
+body {
+  padding: 50px;
+  font: 18px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+#add-item{
+	background-color:rgb(251, 90, 90) ;
+	padding: 30px;
+	border-radius: 10px;
+	width: max-content;
+	margin: 50px auto;
+	font-size: larger;
+}
+input{
+	margin:10px;
+}
+#login{
+	background-color:rgb(251, 90, 90) ;
+	padding: 30px;
+	border-radius: 10px;
+	text-align: center;
+	width: max-content;
+	margin: 50px auto;
+	font-size: larger;
+}
+.clothing-item{
+	text-align: center;
+	width: max-content;
+	position: relative;
+	display: inline-block;
+	margin: 20px;
+}
+nav {
+	margin: 30px auto;
+	width: max-content;
+	position: relative;
+	right: 10px;
+}
+ul{
+	list-style: none;
+}
+li{
+	text-align: center;
+	display: inline-block;
+	margin: 10px 15px;
+}
+li > a{
+	border: solid 1px red;
+	padding: 5px;
+	border-radius: 10px;
+	text-decoration: none;
+	background-color: rgb(255, 215, 215);;
+	color: red;
+	font-size: 15pt;
+}
+.set{
+	border-radius: 5px;
+	position: relative;
+	display: block;
+	width: max-content;
+	margin: 40px auto;
+	background-color: rgb(251, 90, 90);
+}
+
+.added-info{
+	border-radius: 10px;
+	position: relative;
+	width: max-content;
+	display: block;
+	margin: 30px auto;
+	font-size: 20pt;
+	background-color: rgb(255, 215, 215);
+	padding: 10px;
+}
+
+.added-info > span{
+	position: relative;
+	width: max-content;
+	margin: 0px auto;
+	display: block;	
+}
+
+.item-pic{
+	position: relative;
+	width: 250px;
+	height: 250px;
+	display: block;
+	margin: 0px auto;
+}
+
+a {
+  color: #0073AA;
+}
+
+.form-row {
+	padding:0.5em;
+}
+
+form {
+	margin-top:1em;
+	margin-bottom:1em;
+}
+
+#wrapper {
+	width:500px;
+	padding:2em;
+  	background-color:#eee;
+}
+
+
+input[type='checkbox'] {
+	margin-right: 1em;
+}
+
+input[type=submit] {
+	padding:5px 15px; 
+	background:#ccc; 
+	border:0 none;
+	cursor:pointer;
+	font-size:1em;
+}
+
+input {
+	font-size:1em;
+}
+
+input[type=submit]:hover {
+	background-color: #0073AA;
+	color: white;
+}
+
+button{
+	width: max-content;
+	display: block;
+	padding: 5px;
+	font-size: 25pt;
+	margin: 20px auto;
+	border-radius: 10px;
+}
+button:hover{
+	color: red;
+	cursor: pointer;
+}
+
+body{
+	padding: 0px;
+	margin: 0px;
+}
+
+button.next-button{
+	width: max-content;
+	display: block;
+	padding: 5px;
+	font-size: 20pt;
+	margin: 20px auto;
+	border-radius: 10px;
+	background-color: rgb(255, 215, 215);
+	color: red;
+	border: 1px solid rgb(251, 90, 90);
+}
+.no-set{
+	border: 1px solid rgb(251, 90, 90);
+	border-radius: 10px;
+	width: max-content;
+	margin: 140px auto;
+	padding: 50px;
+	text-align: center;
+	font-size: 24pt;
+	background-color: rgb(251, 90, 90);
+	color:  white;
+}
+p > br{
+	margin-bottom: 10px;
+}
+
+.log-reg{
+	max-width: max-content;
+	margin: 140px auto;
+	background-color: rgb(251, 90, 90);
+	color:  white;
+	font-size: 24pt;
+	padding: 30px;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.item{
+	text-align: center;
+	width: max-content;
+	position: relative;
+	display: inline-block;
+	margin: 35px;
+	background-color:rgb(255, 215, 215);
+	border-radius: 10px;
+	padding: 10px;
+	border: 1px solid red ;
+}
+.top-five{
+	width: 800px;
+	margin: 0px auto;
+	display: block;
+	text-align: center;
+}
+.five{
+	text-align: center;
+	width: max-content;
+	position: relative;
+	display: inline-block;
+	margin: 15px;
+	background-color:rgb(255, 215, 215);
+	border-radius: 10px;
+	padding: 5px;
+	border: 1px solid red ;
+}
+.list{
+	width:1200px;
+	margin: 0px auto;
+	display: block;
+	height: 1000px;
+}

@@ -1,0 +1,10 @@
+<div class="top-five">
+<h3>Here are the current Top 5 Most Popular Items</h3>
+{{#each items}}
+<div class="five">
+<img src={{imgUrl}} height="200" width="200">
+<p>{{votes}} votes!<br><a href={{storeLink}}>Buy Here!</a></p>
+</div>
+{{/each}}
+</div>
+

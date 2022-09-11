@@ -1,0 +1,11 @@
+<div class="set">
+<h2>Vote for the one you likelike!</h2>
+<form method="POST" action="/result">
+    {{#each items}}
+    <div class= "clothing-item">
+    <img class="item-pic" src={{imgUrl}}>
+    <button class="vote-button" type = "submit" name = "_id" value={{_id}}>Vote</button>
+    </div>
+    {{/each}}
+</form>
+</div>

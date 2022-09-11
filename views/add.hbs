@@ -1,0 +1,44 @@
+<!--const ClothingItem  = new mongoose.Schema({
+	_id: true,
+	name: {type: String.apply, required: true},
+	category : {type: String.apply, required: true},
+	storeLink : {type: String, required: true},
+	imgUrl : {type: String, required: true},
+	votes : Number,
+	inSet : {type:Boolean, default: false, required:true},
+})-->
+{{#if user}}
+<h3>Hello {{user.username}}</h3>
+<div id="alerts">
+    {{#if alert}}
+        {{#each alert}}
+        <h5>:( Error: {{msg}}</h5>
+        {{/each}}
+    {{else}}
+    {{message}}
+    {{/if}}
+</div>
+<div id = 'add-item'>
+<form class= "additem" method="POST" action="">
+    <div>Name: <input type="text" name="name"></div>
+    <div>Category:
+    <select name= "category" value = "Women's Tops">
+        <option value = "Men's Tops" > Men's Tops</option>
+        <option value = "Women's Tops"> Women's Tops</option>
+        <option value = "Men's Bottoms"> Men's Bottoms</option>
+        <option value = "Women's Bottoms"> Women's Bottoms</option>
+        <option value = "Men's Shoes">Men's Shoes</option>
+        <option value = "Women's Shoes">Women's Shoes</option>
+    </select>
+    </div>
+    <div>Image Link: <input type="text" name="imgUrl"></div>
+	<div>Link to Buy: <input type="text" name="storeLink" value=""></div>
+    <input type="submit" value="add item" id="add-btn">
+</form>
+{{else}}
+<div class="log-reg">
+Cant add your are not a user!<br>
+<a href="/auth/login">Login</a> or <a href="/auth/register">Register</a> to add Clothing Item and to view your liked items!
+</div>
+{{/if}}
+</div>

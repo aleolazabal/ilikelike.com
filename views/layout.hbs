@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+		<title></title>
+		<link href="https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed" rel="stylesheet">
+
+		<link rel="stylesheet" href="/stylesheets/style.css" type="text/css" media="screen" title="no title" charset="utf-8">
+</head>
+<body>
+<style>
+</style>
+<div id="container">
+	<script src="javascripts/main.js"></script>
+	<header>
+		<h1><span>ilike</span>like.com</h1>
+	</header>
+	<main>
+	<nav>
+		<ul>
+			<nav> 
+			<li><a href="/user/add"> Add a Clothing Item</a></li>
+			<li><a href="/liked">Liked Items</a></li>
+			<li><a href="/items"> All Clothing Items</a></li>
+			<li><a href="/popular">Top 5 likedliked!</a></li>
+			<li><a href="/set"> Discover New Sets!</a></li>
+			{{#if user}}
+			<li><a href="/auth/logout"> Logout</a></li>
+			{{else}}
+			<li><a href="/auth/login">Log In</a></li>
+			{{/if}}
+			</nav>
+		</ul>
+	</nav>
+</div>
+<div id = "content">
+	{{{body}}}
+</div>
+</main>
+</body>
+</html>

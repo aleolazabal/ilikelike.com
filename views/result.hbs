@@ -1,0 +1,16 @@
+<div class="set">
+<h2>Who likes What?</h2>
+{{#each items}}
+<div class= "clothing-item">
+<img class="item-pic" src={{item.imgUrl}}>
+<p class="added-info">
+    <span>%{{percentage}}</span>
+    Liked This <a href = {{item.storeLink}} target="_blank">Item!</a>
+</p>
+</div>
+{{/each}}
+</div>
+
+<form method="POST" action="/set">
+    <button class="next-button" type = "submit">Next Set &raquo</button>
+</form>
